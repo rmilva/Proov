@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+        <title>Sunify</title>
+        <link rel="stylesheet" type="text/css" href="Sun.css">
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+        <script src="Sunify.js"></script>
+    </head>
+
+    <body>
+    
+        <div class="wrapper">
+        
+            <div class="main-p">
+                
+                <h1>Sunify</h1>
+                <img src="Logo.png">
+        
+            </div>
+            
+            <div class="search">
+                
+               <form>
+                  <input type="text" placeholder="Enter city name" id="city-name">
+                    <input type="text" placeholder="Enter country code" id="country-code">
+                <p id="error">Wrong city name or country code!</p>  
+                  <button type="button" onclick="searchAndSetWeatherData();">Search
+                   </button>
+                </form>  
+                
+            
+            </div>
+        
+            <div class="weather" id="searchBar">
+              <h2 id="cityName">Tallinn</h2>
+                <img id="icon" src="https://openweathermap.org/img/w/02d.png">
+                <p><span id="degree">x</span> °C</p>
+                
+            </div>
+        
+        
+        </div>
+    
+    
+    
+    </body>
+
+
+
+</html>

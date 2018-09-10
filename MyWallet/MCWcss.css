@@ -1,0 +1,139 @@
+.wrapper { margin: 0 auto;
+        width: 922px;
+}
+
+.nav-buttons {
+    width: 160px;
+    padding-top: 5%;
+    float: left;
+}
+
+.btn1 {
+    background-image: url(Images/home.png);   
+}
+
+.btn2 {
+    background-image: url(Images/file.png);  
+}
+
+.btn3 { 
+    background-image: url(Images/bar-chart.png);    
+}
+
+.btn4 { 
+    background-image: url(Images/loupe.png);   
+}
+
+.nav-buttons button {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+    background-color: #075f68;
+    margin-right: 4px;
+}
+    
+
+
+.nav-buttons button:hover {
+    background-color: #22727b;
+    border-radius: 5px;
+    
+    
+}
+
+.logo { width: 390px;
+        height:390px;
+        float: left;
+        margin-top: -9%;
+        z-index: 5;
+    
+}
+
+
+.top-nav h1 {
+    padding-top: 15%;
+    margin:0; 
+    float: left;
+    
+}
+.top-nav h2 {
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-left: 45%;
+    margin-top: 2%; 
+}
+
+.top-nav {
+    height: 200px;
+}
+
+.content {
+    height: 200px;
+    width: 500px;
+    float: right;
+    margin-top: 5%;
+    font-size: 23px;
+    line-height: 40px;
+    
+}
+
+.background {
+    height: 250px;
+    background-color: #075f68;
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+    }
+
+body{
+   margin: 0;
+    font-family: "Dosis";
+    letter-spacing: 1px;
+    
+        
+}
+
+.input {
+    float: right;
+    margin-top: 5%;
+
+    }
+.input input {
+    float: right;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(238, 241, 244, 0.48);
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    
+        
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    
+}
+    
+
+.bot-nav {
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    font-size: 25px;  
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.bot-bg {
+    height: 15%;
+    width: 100%;
+    background-color: #075f68;
+    bottom: 0;
+    position: absolute;
+}

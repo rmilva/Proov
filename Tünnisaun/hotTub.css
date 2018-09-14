@@ -29,10 +29,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .top-nav p {
 	font-size: 40px;
 	color: white;
-	width: 420px;
+	width: 520px;
 	float: left;
 	margin-top: 25px;
-	margin-left: 30px;
+	padding-left: 20px
 }
 
 .top-nav a {
@@ -74,7 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .workDay {
 	height: 130px;
 	border-radius: 15px;
-	background-color: rgb(179, 173, 172, 0.5);
+	background-color: rgb(179, 173, 172, 0.7);
 
 }
 .workDay img {
@@ -93,10 +93,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	margin-bottom: 0;
 }
 
+.workDay p {
+	font-size: 18px;
+
+}
+.weekend p {
+	font-size: 18px;
+}
+.more {
+	font-size: 18px;
+}
+
 .weekend {
 	height: 130px;
 	border-radius: 15px;
-	background-color: rgb(179, 173, 172, 0.5);
+	background-color: rgb(179, 173, 172, 0.7);
 }
 .weekend img {
 	float: left;
@@ -114,13 +125,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	margin-bottom: 0;
 }
 .more {
-	height: 130px;
+	height: 160px;
 	border-radius: 15px;
-	background-color: rgb(179, 173, 172, 0.5);
+	background-color: rgb(179, 173, 172, 0.7);
 }
 .more img {
 	float: left;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-left: 30px;
 	
 }
@@ -142,26 +153,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	float: right;
 	margin-top: 80px;
 	margin-right: 30px;
-	background-color: rgb(179, 173, 172, 0.5);
+	background-color: rgb(179, 173, 172, 0.7);
 	border-radius: 15px;	
 }
 
-.broneering textarea {
+.message  {
+	height: 130px;
+}
+.broneering input {
 	
 	width: 90%;
 	margin-left: 3%;
+	border-radius: 5px;
 }
 
 .broneering p {
 	text-align: left;
 	padding-left: 3%;
+	font-size: 18px;
 }
 
-.message textarea {
-	height: 130px;
-}
 
-.broneering button {
+.broneering .button {
 	margin-left: 170px;
 	margin-top: 20px;
 	border: none;
@@ -180,19 +193,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	width: 80%;
 	text-align: left;
 	margin-left: 10%;
-	height: 450px;
+	height: 490px;
 }
 
 #kasutusjuhend h3 {
 	text-align: center;
-	
+	font-size: 30px;
 	padding-top: 40px;
 }
 #kasutusjuhend p {
 	text-align: left;
-	line-height: 20px;
+	line-height: 25px;
 	font-size: 18px;
 	letter-spacing: 1px;
+
 }
 
 #kontakt {
@@ -207,4 +221,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	border: none;
 	color: white;
 	text-align: center;
+
+}
+#kontakt p {
+	padding-left: 0;
 }
